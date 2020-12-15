@@ -1,0 +1,18 @@
+[L-System Parameter File]
+FRACTAL NAME=TREE #1
+Initiator=X
+d Generator=DD
+L Generator=
+R Generator=
+X Generator=D[+X]D[-X]+X
+Y Generator=
+T Generator=
+Start X=250
+Start Y=400
+Start Angle=180
+Divisor=2
+Second Divisor=0
+Third Divisor=0
+Angle=22.5000
+Line Length=200
+Level=5

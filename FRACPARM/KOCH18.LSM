@@ -1,0 +1,18 @@
+[L-System Parameter File]
+FRACTAL NAME=18 SEGMENT KOCH CURVE
+Initiator=D+D+D+D
+d Generator=D-DD+DD+D+D-D-DD+D+D-D-DD-DD+D
+L Generator=
+R Generator=
+X Generator=
+Y Generator=
+T Generator=
+Start X=100
+Start Y=100
+Start Angle=0
+Divisor=6
+Second Divisor=0
+Third Divisor=0
+Angle=90
+Line Length=200
+Level=2

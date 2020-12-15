@@ -1,0 +1,18 @@
+[L-System Parameter File]
+FRACTAL NAME=PEANO CURVE
+Initiator=D
+d Generator=D-D+D+DD+D+D+DD
+L Generator=
+R Generator=
+X Generator=
+Y Generator=
+T Generator=
+Start X=240
+Start Y=100
+Start Angle=0
+Divisor=3
+Second Divisor=0
+Third Divisor=0
+Angle=90
+Line Length=300
+Level=3

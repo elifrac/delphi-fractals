@@ -1,0 +1,18 @@
+[L-System Parameter File]
+FRACTAL NAME=PEANO 13 SEGMENT SNOWFLAKE
+Initiator=T
+d Generator=
+L Generator=
+R Generator=
+X Generator=
+Y Generator=
+T Generator=++BT--T--T-----{TB++B++B++}+T{-----TB}+++++BT
+Start X=100
+Start Y=320
+Start Angle=90
+Divisor=3
+Second Divisor=1.732051
+Third Divisor=0
+Angle=30.0000
+Line Length=300
+Level=3

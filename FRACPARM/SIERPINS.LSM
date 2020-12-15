@@ -1,0 +1,18 @@
+[L-System Parameter File]
+FRACTAL NAME=SIERPINSKI TRIANGLE
+Initiator=R
+d Generator=
+L Generator=+R-L-R+
+R Generator=-L+R+L-
+X Generator=
+Y Generator=
+T Generator=
+Start X=80
+Start Y=200
+Start Angle=90
+Divisor=2
+Second Divisor=0
+Third Divisor=0
+Angle=60
+Line Length=300
+Level=5

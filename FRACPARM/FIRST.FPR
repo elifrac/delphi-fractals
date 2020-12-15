@@ -1,0 +1,25 @@
+[Fractal Parameter File]
+KSTART=5
+KEND=55
+KSTEP=5
+RADIUS=2.1004
+REAL CENTER=-0.751174
+IMAGINARY CENTER=0
+STEPX=0.0084016
+STEPY=0.0084016
+FRACTAL NAME=ORBITS
+XMax=1.349226
+XMin=-2.851574
+YMax=-2.1004
+YMin=2.1004
+Index=7
+Iterations=150
+Drawing Type=0
+Coloring Mode=0
+BioMorph Color=16711680
+BioMorph Color 2=65535
+Palette Name=C:\ELFR3\PALETTE\Orbits.pal
+Xr=0
+Xim=0
+Yr=0
+Yim=0
