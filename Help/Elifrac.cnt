@@ -1,0 +1,20 @@
+:Base Elifrac.hlp>MAIN
+:Title EliFrac Help
+1 About Fractals
+2 A Little History=!KL(`A Little History')
+2 Biomorphs=!KL(`Biomorphs')
+2 L-Systems=IDH_LSYSTEMS
+2 Example of L-Systems=!KL(`Example of L-Systems')
+2 Mandelbrot Benoit=!KL(`Benoit Mandelbrot')
+1 Shortcuts
+2 Keyboard Shortcuts=IDH_KEYBOARD_SHORTCUTS
+1 Menus
+2 File Menu Commands=IDH_FILE MENU COMMANDS
+2 Edit Menu Commands=IDH_EDIT MENU COMMANDS
+2 View Menu Commands=IDH_VIEW MENU COMMANDS
+2 Fractal Type Menu Commands=IDH_FRACTAL TYPE MENU COMMANDS
+2 Options Menu Commands=IDH_OPTIONS MENU COMMANDS
+2 Image Menu Commands=IDH_IMAGE MENU COMMANDS
+2 Filters Menu Commands=IDH_FILTERS MENU COMMANDS
+2 Window Menu Commands=IDH_WINDOW MENU COMMANDS
+2 Help Menu Commands=IDH_HELP MENU COMMANDS
