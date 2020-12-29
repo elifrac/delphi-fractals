@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E3BE4806-06D3-4596-A615-249C3CE27FB0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Elifrac.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Elifrac">
+        <MSBuild Projects="Elifrac.dproj"/>
+    </Target>
+    <Target Name="Elifrac:Clean">
+        <MSBuild Projects="Elifrac.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Elifrac:Make">
+        <MSBuild Projects="Elifrac.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Elifrac"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Elifrac:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Elifrac:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

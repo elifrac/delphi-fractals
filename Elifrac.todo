@@ -1,0 +1,5 @@
+{DONE :
+Test all the functions of the program for bugs after all the code changes
+and additions. There could be interactions that I haven't thought of.}{DONE : Corect the bug that doesn't let walking be done after a picture load.}{DONE : Support Scanners. Now that I have one.}{DONE  :
+Try to save unfinished fractal picture and params and continue from the 
+point that we stopped later on after a load.}
